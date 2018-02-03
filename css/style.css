@@ -30,6 +30,8 @@ header {
 }
 .header-button {
 cursor: pointer;
+display: inline-block;
+text-decoration: none;
 box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 border-radius: 30px;
 background-color: #ffffff;
@@ -37,7 +39,6 @@ color: #072b6f;
 font-weight: 700;
 padding: 15px 50px;
 font-size: 18px;
-font-family: "Roboto";
 margin-top: 33px;
 }
 header small {
@@ -142,6 +143,7 @@ footer h4 {
 }
 .footer-button {
 	cursor: pointer;
+	text-decoration: none;
 	display: inline-block;
 	border-radius: 50px;
 	border: 1px solid #ffffff;
