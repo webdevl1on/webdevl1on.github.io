@@ -8,6 +8,7 @@ body {
 /*-----header-----*/
 header {
 	background-color: #3a7dfd;
+	background-image: linear-gradient(-147deg, #3a7dfd 0%, #1157db 100%);
 	color: #ffffff;
 	padding-top: 59px;
 	padding-bottom: 20px;
@@ -167,7 +168,33 @@ footer h4 {
 	-o-transition: 0.3s;
 	transition: 0.3s;
 }
-
+.up-button-block {
+    float: right;
+    transform: rotate(45deg);
+    margin-top: -100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 82px;
+    height: 82px;
+    box-shadow: 5px 0px 34px 6px rgba(18, 61, 145, 0.41);
+    background-color: #3a7dfd;
+}
+.inner-up-button-block {
+    width: 63px;
+    height: 63px;
+    background-color: #1e5cd3;
+    text-align: center;
+}
+.up-button {
+    display: block;
+    transform: rotate(-45deg);
+    margin: auto;
+    width: 82px;
+    height: 82px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+}
 @media (max-width: 1200px) {
 	.header-pretitle {
 		margin-top: 60px;
