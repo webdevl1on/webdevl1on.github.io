@@ -13,6 +13,7 @@
 	<!-- Заголовок вкладки -->
 	<title>Портфолио</title>
 	<!-- Файл стилей -->
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Google fonts -->
@@ -26,16 +27,16 @@
 			
 			<div class="row">
 				<div class="col-lg-7 ">
-					<img class="header-img" src="images/main_img.png" alt="MAC">
+					<img class="header-img wow fadeInLeftBig" src="images/main_img.png" alt="MAC">
 				</div>
 				<!-- /.col-7 -->
 				<div class="col-lg-5 header-w768">
-					<p class="header-pretitle">Веб-разработчик</p>
-					<h1 class="header-title">Евгений Лысенко</h1>
-					<p class="header-subtitle">Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>	
-					<div class="header-button-block">
+					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Евгений Лысенко</h1>
+					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>	
+					<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
 						<a href="https://vk.me/id54535251" class="header-button">Связаться</a>  <br>
-					<small>*Это бесплатно</small>
+					<small >*Это бесплатно</small>
 					</div>			
 				</div>
 			</div>
@@ -85,10 +86,10 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p>Подпишитесь:</p>
-						<a href="https://facebook.com/id54535251"><img src="images/social/facebook-logo-button.png" alt="Facebook"></a>
-						<a href="https://t.me/lLuckyBoyl"><img src="images/social/telegram-symbol.png" alt="Telegram"></a>
-						<a href="https://vk.com/id54535251"><img src="images/social/vk-social-logotype.png" alt="Вконтакте"></a>
-						<a href="https://www.youtube.com/"><img src="images/social/youtube-symbol.png" alt="Youtube"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.1s" href="https://facebook.com/id54535251" ><img  src="images/social/facebook-logo-button.png" alt="Facebook"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.2s" href="https://t.me/lLuckyBoyl"><img src="images/social/telegram-symbol.png" alt="Telegram"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.3s" href="https://vk.com/id54535251"><img  src="images/social/vk-social-logotype.png" alt="Вконтакте"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.4s" href="https://www.youtube.com/"><img  src="images/social/youtube-symbol.png" alt="Youtube"></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -101,5 +102,9 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
